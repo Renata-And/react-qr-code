@@ -1,5 +1,7 @@
+import QrCodeGenerator from './QrCodeGenerator';
+
 const Layout = () => {
-  return <div>test</div>;
+  return <QrCodeGenerator />;
 };
 
 export default Layout;
