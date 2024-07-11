@@ -1,12 +1,16 @@
 import { useState } from 'react';
 import { QrScanner } from 'react-qrcode-scanner';
+import { SCAN_DATA } from '../../constants';
 
 import styles from './qrCodeScanner.module.css';
 
 const QrCodeScanner = () => {
   const handleScan = (value) => {
-    console.log({ value });
     setValue(value);
+
+    const prevValue = JSON.parse(localStorage.getItem(SCAN_DATA) || '[]');
+
+    localStorage.setItem(SCAN_DATA, JSON.stringify([...prevValue, value]));
   };
 
   const handleError = (error) => {

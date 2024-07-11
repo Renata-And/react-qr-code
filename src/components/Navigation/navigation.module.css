@@ -1,0 +1,13 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 30px 0;
+}
+
+.navItem {
+  color: rgb(11, 4, 105);
+  text-decoration: none;
+  font-family: Tahoma, sans-serif;
+  font-size: 20px;
+}
