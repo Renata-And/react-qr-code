@@ -12,7 +12,8 @@
   "dependencies": {
     "qrcode.react": "^3.1.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-qrcode-scanner": "^1.2.4"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
