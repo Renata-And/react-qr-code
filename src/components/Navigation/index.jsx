@@ -10,10 +10,10 @@ const Navigation = () => {
       <Link to={'/scan'} className={styles.navItem}>
         Отсканировать QR код
       </Link>
-      <Link to={'/'} className={styles.navItem}>
+      <Link to={'/generateHistory'} className={styles.navItem}>
         История сгенерированных QR кодов
       </Link>
-      <Link to={'/'} className={styles.navItem}>
+      <Link to={'/scanHistory'} className={styles.navItem}>
         История отсканированных QR кодов
       </Link>
     </nav>
